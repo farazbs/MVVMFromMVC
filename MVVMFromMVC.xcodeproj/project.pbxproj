@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18527CF7266772D700145772 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527CF6266772D700145772 /* Box.swift */; };
+		18527CF92667856800145772 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18527CF82667856800145772 /* WeatherViewModel.swift */; };
 		38159E9824352DD000819474 /* WeatherbitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38159E9724352DD000819474 /* WeatherbitData.swift */; };
 		38159E9A24352E8300819474 /* WeatherbitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38159E9924352E8300819474 /* WeatherbitService.swift */; };
 		3853FB7B237B8D1D00835B42 /* WeatherbitDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853FB7A237B8D1D00835B42 /* WeatherbitDataTests.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18527CF6266772D700145772 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		18527CF82667856800145772 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		38159E9724352DD000819474 /* WeatherbitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherbitData.swift; sourceTree = "<group>"; };
 		38159E9924352E8300819474 /* WeatherbitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherbitService.swift; sourceTree = "<group>"; };
 		3853FB78237B8D1D00835B42 /* MVVMFromMVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMFromMVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +121,7 @@
 		6351BBCE23AE8A6A00B7C4DF /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				18527CF6266772D700145772 /* Box.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 		6351BBCF23AE8A7000B7C4DF /* View Models */ = {
 			isa = PBXGroup;
 			children = (
+				18527CF82667856800145772 /* WeatherViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -277,9 +283,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3864C3F0237CC570000C9CA0 /* WeatherViewController.swift in Sources */,
+				18527CF7266772D700145772 /* Box.swift in Sources */,
 				3864C3EA237CB7FF000C9CA0 /* LocationGeocoder.swift in Sources */,
 				3864C3EC237CB938000C9CA0 /* Location.swift in Sources */,
 				D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */,
+				18527CF92667856800145772 /* WeatherViewModel.swift in Sources */,
 				38159E9824352DD000819474 /* WeatherbitData.swift in Sources */,
 				38159E9A24352E8300819474 /* WeatherbitService.swift in Sources */,
 			);
